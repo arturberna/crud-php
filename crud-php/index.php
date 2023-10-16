@@ -41,7 +41,7 @@
                         foreach($pdo->query($sql)as $row)
                         {
                             echo '<tr>';
-			                      echo '<th scope="row">'. $row['id'] . '</th>';
+			                echo '<th scope="row">'. $row['id'] . '</th>';
                             echo '<td>'. $row['nome'] . '</td>';
                             echo '<td>'. $row['endereco'] . '</td>';
                             echo '<td>'. $row['telefone'] . '</td>';
